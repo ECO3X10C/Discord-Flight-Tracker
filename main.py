@@ -74,7 +74,9 @@ async def on_ready():
 
 # TRACK COMMAND
 @client.tree.command()
-async def track(interaction: discord.Interaction, callsign: str, plane: str):
+async def track(interaction: discord.Interaction, airline: str, code: str):
+    callsign = airline
+    plane = code
     # TRY EXCEPT LOOP FOR ERRORS
     try:
         airlines = fr_api.get_airlines()
