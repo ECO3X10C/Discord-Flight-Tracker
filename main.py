@@ -22,7 +22,6 @@ typing
 
 CREDITS:
 ADITYA KODURI
-Special thanks to the creator of the FlightRadarAPI
 """
 
 # IMPORTS
