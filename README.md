@@ -1,8 +1,6 @@
 # Discord-Flight-Tracker
 A flight tracker Discord bot. Supports slash commands. Data recieved from Flight Radar 24.
 
-If you wish to use the bot, make sure to change the values presented at the top of `main.py`
-
 **Images:**
 
 Flight Embed:
