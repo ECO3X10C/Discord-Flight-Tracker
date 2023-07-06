@@ -1,6 +1,7 @@
 # Discord-Flight-Tracker
 A flight tracker Discord bot. Supports slash commands. Data recieved from Flight Radar 24.
 
+Command Usage Example: /track aca 119
 **Images:**
 
 Flight Embed:
