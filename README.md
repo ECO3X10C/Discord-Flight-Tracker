@@ -23,3 +23,15 @@ Credit:
 Aditya Koduri
 
 Contact me for any concerns.
+
+Notice: 06/06/2023
+Please note that when inviting your own discord bot, you need to enable the "applications.command" scope as well as the "bot scope". Please refer to the attached images below.
+
+applications.command scope:
+
+![image](https://github.com/ECO3X10C/Discord-Flight-Tracker/assets/80074372/081a7082-8273-4d9a-997e-323c7b338f9a)
+
+bot scope:
+![image](https://github.com/ECO3X10C/Discord-Flight-Tracker/assets/80074372/e3483c53-c2ac-4312-a024-356bbc4cc8cd)
+
+
