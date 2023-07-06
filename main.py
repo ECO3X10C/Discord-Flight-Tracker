@@ -1,8 +1,8 @@
 
 # CONFIGS
 
-guild_id = 0  # REPLACE WITH GUILD ID 
-token_text = " " # REPALCE WITH BOT TOKEN
+guild_id = 0  # REPLACE WITH GUILD ID, CAN BE FOUND USING DISCORD DEV TOOLS
+token_text = "" # REPALCE WITH BOT TOKEN
 
 
 # IMPORTANT INFO
@@ -11,9 +11,11 @@ token_text = " " # REPALCE WITH BOT TOKEN
 
 INFO:
 -Check your intents
+-Check your scopes
 -flights might have two different codes(ex: WJA and WS), if one does not work, try using the other
 
 IMPORTS:
+Here are a list of the modules used for this bot, feel free to use the command: pip install -r requirements.txt to auto import.
 discord
 FlightRadarAPI
 datetime
@@ -45,7 +47,7 @@ fr_api = FlightRadar24API()
 airports = fr_api.get_airports()
 airlines = fr_api.get_airlines()
 flights = fr_api.get_flights()
-zones = fr_api.get_zones()
+
 
 # DISCORD IMPORTS
 
